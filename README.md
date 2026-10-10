@@ -4,6 +4,7 @@
 
 Built for the **Hacker House Goa Wispr Flow challenge**. This repository was developed through **voice-driven iteration** using **[Wispr Flow](https://wisprflow.ai/)** (speak requirements, refine in code)—a practical way to build fast when you are on the move at a hackathon or on a noisy shop floor.
 
+For this challenge, the Wispr Flow account was created using the official **[Hacker House Goa referral link](https://ref.wisprflow.ai/hhg)**.
 ---
 
 ## The problem fabricators face
