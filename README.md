@@ -2,7 +2,7 @@
 
 **Expo Pilot** is a browser-based operations app for **exhibition stall fabricators**. It helps you move from messy client messages to structured briefs, internal costing, client-safe quotations, and on-site execution tracking—without mixing up what the client should see versus what stays in your workshop.
 
-Built for the **Hacker House Goa** challenge. This repository was developed through **voice-driven iteration** using **[Wispr Flow](https://wisprflow.ai/)** (speak requirements, refine in code)—a practical way to build fast when you are on the move at a hackathon or on a noisy shop floor.
+Built for the **Hacker House Goa Wispr Flow challenge**. This repository was developed through **voice-driven iteration** using **[Wispr Flow](https://wisprflow.ai/)** (speak requirements, refine in code)—a practical way to build fast when you are on the move at a hackathon or on a noisy shop floor.
 
 ---
 
@@ -15,13 +15,13 @@ At the same time, the business runs on two different numbers:
 - **Internal cost** (material, print, labour, transport) and **margin**—for your eyes only.
 - **Client selling price**—what goes on the quotation and must never leak workshop economics.
 
-Without a simple system, teams re-type data into spreadsheets, miss checklist items, quote before the brief is complete, and lose track of fabrication stages when three shows overlap. **Expo Pilot** keeps one project’s brief, costing, quote, and execution in one place, stored **locally in the browser** so you can work offline at the venue.
+Without a simple system, teams re-type data into spreadsheets, miss checklist items, quote before the brief is complete, and lose track of fabrication stages when three shows overlap. **Expo Pilot** keeps one project’s brief, costing, quote, and execution in one place, stored locally in the browser without requiring a backend or cloud database in this version.
 
 ---
 
 ## What Expo Pilot does
 
-Expo Pilot is a **single-page workflow** (Next.js app) with six main areas:
+Expo Pilot is a **browser-based workflow** (Next.js app) with six main areas:
 
 | Area | Purpose |
 |------|---------|
@@ -96,21 +96,17 @@ Track eleven stages (design approval through dismantling), each **Pending**, **I
 **Requirements:** Node.js 20+ and npm.
 
 ```bash
-# Clone or download the repository, then:
-cd Expopilot-final
+git clone https://github.com/ashutoshdas22/Expopilot.git
+cd Expopilot
 
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) (or the port shown in the terminal).
-
 **Production build:**
 
-```bash
 npm run build
 npm start
-```
 
 **Quick demo path:** **Projects** → **Open demo project** → follow Dashboard → Client brief → Costing → Quotation → Execution.
 
@@ -138,7 +134,7 @@ npm start
 
 ## Voice-driven development (Wispr Flow)
 
-This project was built iteratively at **Hacker House Goa** by describing features aloud and implementing them in the codebase—requirements for brief analysis, costing rules, quotation privacy, execution stages, and project storage came through **voice-driven development with Wispr Flow**, then were validated with local builds and manual workflow testing. That matches how many fabricators already work: talk first, structure second.
+This project was built iteratively for the **Hacker House Goa Wispr Flow challenge** by describing features aloud and implementing them in the codebase—requirements for brief analysis, costing rules, quotation privacy, execution stages, and project storage came through **voice-driven development with Wispr Flow**, then were validated with local builds and manual workflow testing. That matches how many fabricators already work: talk first, structure second.
 
 ---
 
@@ -170,7 +166,7 @@ This project was built iteratively at **Hacker House Goa** by describing feature
 
 ## License
 
-This project is private (`"private": true` in `package.json`). Add a license file if you intend to open-source or distribute it.
+No open-source license has been added yet. The "private": true field in package.json only prevents accidental publishing to npm and does not affect the public visibility of this GitHub repository.
 
 ---
 
